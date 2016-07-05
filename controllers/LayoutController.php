@@ -19,7 +19,7 @@ class LayoutController extends Controller{
         return $this->renderPartial('index');//$content
     }
 
-    //3、视图之数据块
+    //3、视图之数据块[可以动态修改局部内容，使之布局文件内容被替换;可以当做子类继承父类，重写方法理解]
     public function actionIndex3(){
         return $this->render('block1');//$content
     }
