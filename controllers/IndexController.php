@@ -6,7 +6,7 @@ use yii\web\Cookie;
 
 class IndexController extends Controller
 {
-    public $layout = 'common';
+
     // 显示视图
     public function actionIndex($message = 'Hello'){
 
@@ -17,7 +17,6 @@ class IndexController extends Controller
 
 		//return $this->render('index', ['message' => '123']);  // 渲染一个名称为"view"的视图并使用布局
 
-//         return $this->render('about',$data);
     }
 
     //demo
